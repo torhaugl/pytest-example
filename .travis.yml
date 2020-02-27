@@ -10,7 +10,7 @@ install:
   - pip install pytest
 
 script:
-  - pytest --verbose example.py
+  - pytest --verbose example.py new.py
 
 notifications:
   email: false
